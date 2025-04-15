@@ -29,22 +29,30 @@ console.log ("Olá " + nome);
 console.log ("Cadastro realizado com sucesso!");
 console.log ("Seja Bem-vindo à Vinheria Agnello!");
 
-var NomeVinho = prompt("Digite o nome do vinho:");
+var nomeVinho = prompt("Digite o nome do vinho:");
     alert("Esse vinho irá aparecer no console");    
     console.log("Nome do vinho: " + NomeVinho);
 
-var TipoVinho = prompt("Digite o tipo do vinho (Tinto, Rosé ou Branco):");
+var tipoVinho = prompt("Digite o tipo do vinho (Tinto, Rosé ou Branco):");
     alert("Esse vinho irá aparecer no console");
     console.log("Tipo do vinho: " + TipoVinho);
 
-var SafraVinho = prompt("Digite a safra do vinho:");
+var safraVinho = prompt("Digite a safra do vinho:");
     alert("Essa safra irá aparecer no console");
     console.log("Safra do vinho: " + SafraVinho);
 
-var qntEstoquee = prompt("Digite a quantidade em estoque:");        
+var qntEstoque = prompt("Digite a quantidade em estoque:");        
     alert("Essa quantidade irá aparecer no console");
     console.log("Quantidade em estoque: " + qntEstoquee);
 
 
 
 document.getElementById("email-display").textContent = email;
+document.getElementById("name-display").textContent = nomeVinho;
+document.getElementById("type-display").textContent = tipoVinho;
+document.getElementById("safra-display").textContent = safraVinho;
+document.getElementById("qnt-display").textContent = qntEstoque;
+document.getElementById("status-display").textContent = email;
+document.getElementById("class-display").textContent = email;
+
+
