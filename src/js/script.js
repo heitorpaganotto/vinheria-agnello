@@ -1,33 +1,50 @@
-// // Exibe o alerta de boas-vindas
-// alert("Seja Bem-vindo à Vinheria Agnello");
+alert("Seja Bem-vindo à Vinheria Agnello");
 
-// // Declaração das variáveis para email e senha
-// var email = "";
-// var senha = "";
 
-// // Loop para garantir que o email e a senha não sejam vazios
-// while (email === "" || senha === "") {
-//     email = prompt("Digite seu email para login");
-//     if (email === "") {
-//         alert("Campo de email não pode ser vazio!");
-//         continue;
-//     }
+var email = "";
+var senha = "";
 
-//     senha = prompt("Digite sua senha para login");
-//     if (senha === "") {
-//         alert("Campo de senha não pode ser vazio!");
-//     }
-// }
 
-// // Alerta informando que o cadastro foi realizado
-// alert("Cadastro realizado! Veja os detalhes no console.");
+while (email === "" || senha === "" || nome === "") {
+    email = prompt("Digite seu email para login");
+    if (email === "") {
+        alert("Campo de email não pode ser vazio!");
+        continue;
+    }
 
-// // Exibe o email diretamente na página HTML
-// document.getElementById("email-display").textContent = email;
+    senha = prompt("Digite sua senha para login");
+    if (senha === "") {
+        alert("Campo de senha não pode ser vazio!");
+    }
+    nome = prompt("Digite seu nome completo");
+    if (nome === "") {
+        alert("Campo de nome não pode ser vazio!");
+    }
+}
+//a 
 
-// // Exibe os detalhes no console
-// console.log("Email: " + email);
-// console.log("Senha: " + senha);
-// console.log("Cadastro realizado com sucesso!");
-// console.log("Seja Bem-vindo à Vinheria Agnello!");
-// console.log("Aproveite nossas opções de vinhos!");
+alert("Cadastro realizado! Veja os detalhes no console.");
+
+console.log ("Olá " + nome);
+console.log ("Cadastro realizado com sucesso!");
+console.log ("Seja Bem-vindo à Vinheria Agnello!");
+
+var NomeVinho = prompt("Digite o nome do vinho:");
+    alert("Esse vinho irá aparecer no console");    
+    console.log("Nome do vinho: " + NomeVinho);
+
+var TipoVinho = prompt("Digite o tipo do vinho (Tinto, Rosé ou Branco):");
+    alert("Esse vinho irá aparecer no console");
+    console.log("Tipo do vinho: " + TipoVinho);
+
+var SafraVinho = prompt("Digite a safra do vinho:");
+    alert("Essa safra irá aparecer no console");
+    console.log("Safra do vinho: " + SafraVinho);
+
+var qntEstoquee = prompt("Digite a quantidade em estoque:");        
+    alert("Essa quantidade irá aparecer no console");
+    console.log("Quantidade em estoque: " + qntEstoquee);
+
+
+
+document.getElementById("email-display").textContent = email;
