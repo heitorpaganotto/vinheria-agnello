@@ -20,22 +20,17 @@ As funcionalidades incluem:
 ## 👥 Integrantes
 
 - **Caio Alexandre Ziviani Poci **RM: 562256****
-- **Heitor Rocha Paganotto **RM: 561595**
-- **Thiago Alessandro Gois Ferreira **RM: 562446**
+- **Heitor Rocha Paganotto **RM: 561595****
+- **Thiago Alessandro Gois Ferreira **RM: 562446****
 
 ---
 
 ## 🌐 GitHub Pages
 
-🔗 [Acessar página do projeto](https://usuario.github.io/vinheria-agnello)  
-> *(Substitua o link acima pelo link real do GitHub Pages do grupo)*
+🔗 [Acessar página do projeto](https://heitorpaganotto.github.io/vinheria-agnello/)
 
 ---
 
-## 📷 Demonstração (Opcional)
+## 📷 Demonstração 
 
-Você pode adicionar aqui uma imagem da tela inicial ou um gif do sistema em uso.
-
-```html
-<!-- Exemplo para usar uma imagem -->
-<img src="src/assets/imgs/tela-vinho.png" alt="Tela do sistema de vinhos" width="500">
+![alt text](image-1.png)
